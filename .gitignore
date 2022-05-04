@@ -3,3 +3,6 @@
 *.cpp~
 *.exe
 *.swp
+*.xml
+*.txt~
+*.txt
