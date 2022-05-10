@@ -1,27 +1,16 @@
-#include<iostream>
-#include<string>
+#include<bits/stdc++.h>
+#include<cmath>
 using namespace std;
 
-int main(){
+int main() {
 
-	int n, x(0);
-	cin >> n;
-
-	string s;
-	  while (n--)
-    {
-        cin >> s;
-        if (s[1] == '+')
-        {
-            ++x;
-        }
-        else
-        {
-            --x;
-        }
-    }
-
-    cout << x << endl;
-    return 0;
-
+	int x=0;
+	for(int i=1; i<=5; ++i){
+		for(int j=1; j<=5; ++j){
+			cin >> x;
+			if(x == 1){
+				cout << abs(i-3) + abs(j-3) << endl;
+			}
+		}
+	}
 }
