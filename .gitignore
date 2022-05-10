@@ -6,3 +6,6 @@
 *.xml
 *.txt~
 *.txt
+Codeforces/learn.cpp
+Codeforces/test.cpp
+.idea/CompetitiveProgramming2.iml
