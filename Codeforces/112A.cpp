@@ -8,7 +8,7 @@ string a, b;
 int main(){
     cin >> a >> b;
     for (int  i=0; i<a.size(); i++){
-        if (a[i] < 92) {
+	    if (a[i] < 92) {
             a[i] += 32;
         }
     if (b[i] < 92){
@@ -16,11 +16,11 @@ int main(){
     }
     }
     if (a<b){
-        cout << -1;
+        cout << -1 << endl;
     } else if ( a > b){
-        cout << 1;
+        cout << 1 << endl;
     } else if (a == b ) {
-        cout << 0;
+        cout << 0 << endl;
     }
 
 
